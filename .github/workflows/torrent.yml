@@ -7,13 +7,13 @@ on:
 env:
   name: "Android Studio and SDK Tools"
   comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
+  url: "https://download2446.mediafire.com/f1otkemenuxgOVyq406MogWPUJU58JoG8cfJvjhhK6qUI9vqmiiFaRVFmbvkJMp3k6EyDWqIVmqXr7CTZyi9KHgNWDvU07ntZ8YwTXlTQueEObMfTG0D306ThPey09FLWmVUWgShjykdheJKS2KmiToLNbx1XZ4KYDXGa-dIrtwI/8t9wn2flf2imsj8/Google+TV+13+%2B+Data.zip"
+  file_name: "Google TV 13 +Data.zip"
   piece_size: 19 # Check the README.md for recommended piece size
       
 jobs:
   create:
-    runs-on: ubuntu-20.04
+    runs-on: Ubuntu 20.04 
     steps:
       - name: Install mktorrent
         run: sudo apt-get install mktorrent
